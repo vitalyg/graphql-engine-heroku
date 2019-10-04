@@ -8,7 +8,7 @@ ENV HASURA_GRAPHQL_ENABLE_CONSOLE=true
 CMD graphql-engine \
     --database-url postgres://hasuradb_user:j4KpuKmo91@dpg-bmbr9v7r9jd27h2el6v0/hasuradb \
     serve \
-    --server-port $PORT
+    --port $PORT
 
 ## Comment the command above and use the command below to
 ## enable an access-key and an auth-hook
